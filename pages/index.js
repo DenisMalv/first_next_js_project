@@ -1,5 +1,12 @@
+import Heading from "../components/Heading";
+import Head from "next/head";
 const Home = () => (
-  <h1>Hello world!</h1>
+  <>
+    <Head>
+      <title>Home</title>
+    </Head> 
+    <Heading text={"Home Page"}/>
+  </>
 );
 
 export default Home;
